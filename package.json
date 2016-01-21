@@ -1,14 +1,14 @@
 {
-  "name": "react-hot-boilerplate",
+  "name": "media-manager",
   "version": "1.0.0",
-  "description": "Boilerplate for ReactJS project with hot code reloading",
+  "description": "Chrome app to manage media",
   "scripts": {
     "start": "node server.js",
     "lint": "eslint src"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gaearon/react-hot-boilerplate.git"
+    "url": "https://github.com/truonguyen1/mediamanager.git"
   },
   "keywords": [
     "react",
@@ -21,12 +21,8 @@
     "edit",
     "webpack"
   ],
-  "author": "Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)",
+  "author": "Truong Nguyen <truonguyen1@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/gaearon/react-hot-boilerplate/issues"
-  },
-  "homepage": "https://github.com/gaearon/react-hot-boilerplate",
   "devDependencies": {
     "babel-core": "^6.4.5",
     "babel-eslint": "^4.1.3",
@@ -40,6 +36,8 @@
     "less": "^2.5.3",
     "less-loader": "^2.2.2",
     "react-hot-loader": "^1.3.0",
+    "react-redux": "^4.0.6",
+    "redux": "^3.0.5",
     "style-loader": "^0.13.0",
     "webpack": "^1.12.2",
     "webpack-dev-server": "^1.12.1"
