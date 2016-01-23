@@ -21,6 +21,9 @@ module.exports = {
       {
         test: /\.less$/,
         loader: "style!css!less"
+      },{
+        test: /\.woff($|\?)|\.woff2($|\?)|\.ttf($|\?)|\.eot($|\?)|\.svg($|\?)/,
+        loader: 'url-loader'
       }
     ]
   }
